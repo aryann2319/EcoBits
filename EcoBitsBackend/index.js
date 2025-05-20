@@ -8,7 +8,7 @@ const path = require("path");
 const cors = require("cors");
 
 app.use(express.json()); 
-app.use(cors()); //express will connect to react project on port
+app.use(cors()); 
 
 // Database connection with mongodb
 mongoose.connect("")
